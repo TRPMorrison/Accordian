@@ -1,11 +1,10 @@
 $('.accordian').on('click', 'h2', function() {
-  if ($(this).container().hasClass('hidden'))
-  {
-    $(this).container().removeClass('hidden').addClass('hidden');
-  }
-} else {
-  $('section').addClass('hidden');
-}
+        if ($(this).container().hasClass('hidden')) {
+            $(this).container().removeClass('hidden').addClass('hidden');
+        }
+    } else {
+        $('section').addClass('hidden');
+    }
 };
 
 // Build a jQuery Accordion WITHOUT using slideUp, slideDown, or slideToggle. Hint: use addClass & removeClass.

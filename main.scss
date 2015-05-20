@@ -1,22 +1,31 @@
 .accordian {
     width: 500px;
     margin-left: 30px;
-    margin-top: 30px;
 }
 
 section {
-    border: 3px solid #00C6D6;
+    border: 2px solid #00C6D6;
 }
 
 section h2 {
     color: white;
     background-color: #00C6D6;
-    padding;10px;
-    margin: 0;
+    height: 30px;
+
 }
 
-.accordian .container: {
-    height: 10px;
+.container section p  {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    height: 200px;
+}
+
+.container h2 {
+    padding-left: 15px;
+    margin-top: 0;
 }
 
 .accordian section {
@@ -31,6 +40,6 @@ section h2 {
 }
 
 .accordian .container:hidden {
-    height: 10px
+    height: 10px;
 }
 /*transition: [property]  [duration][timing function] [delay]*/
