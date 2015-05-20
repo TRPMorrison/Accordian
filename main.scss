@@ -1,13 +1,36 @@
-.container {
-  width: 500px;
+.accordian {
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
+
 section {
-  border: 3px solid rgba(0,218,236,1);
+    border: 3px solid #00C6D6;
 }
 
 section h2 {
-  color: white;
-  background-color:rgba(0,218,236,1);
-  padding; 10px;
-  margin: 0;
+    color: white;
+    background-color: #00C6D6;
+    padding;10px;
+    margin: 0;
 }
+
+.accordian .container: {
+    height: 10px;
+}
+
+.accordian section {
+  overflow: hidden;
+    width: 500px;
+    height: 200px;
+    transition: height 2s ease;
+}
+
+.accordian section:hidden {
+    height: 10px;
+}
+
+.accordian .container:hidden {
+    height: 10px
+}
+/*transition: [property]  [duration][timing function] [delay]*/
